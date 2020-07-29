@@ -5,13 +5,11 @@
     <style>
       .bodypart{display: grid;
         grid-template-areas:
-        "제목 제목 제목"
-        "소제목 소제목 프로필"
-        "아티클 아티클 프로필"
-        "아티클 아티클 링크목록"
-        "아티클 아티클 .";
-        grid-template-columns:
-        border: 5px solid gray;
+        "제목 제목 제목 유틸"
+        "소제목 소제목 프로필 프로필"
+        "아티클 아티클 프로필 프로필"
+        "아티클 아티클 링크목록 링크목록"
+        "아티클 아티클 . .";
         }
 
         .제목{grid-area:제목;
@@ -21,45 +19,66 @@
         font-family: 'Titillium Web', sans-serif;
         background-image: url(3305327.jpg);
         background-size: cover;}
+
+        .유틸{grid-area:유틸;
+        border: 4px black double;
+        margin: 10px; padding:20px;
+        width: 200px;
+        font-family: 'PT Serif', serif;
+        background-image: url(3305327.jpg);
+        background-size: cover;}
+
         .소제목{grid-area:소제목;
-        border: 4px gray double;
+        border: 4px black double;
         margin: 10px; padding:20px;
         padding-top: 10px; padding-bottom: 10px;
         background-image: url(preview.jpg);
         background-size: cover;
         height:50px; line-height: 50px;
         font-family: 'Titillium Web', sans-serif;}
+
         .아티클{grid-area:아티클;
-        border: 4px gray double;
+        border: 4px black double;
         margin: 10px; padding:20px;
         padding-top: 10px; padding-bottom: 10px;
         background-image: url(preview.jpg);
         background-size: cover;
         font-family: 'PT Serif', serif;}
+
         .프로필{grid-area:프로필;
-        border: 4px gray double;
+        border: 4px black double;
         margin: 10px; padding:20px;
         width: 300px; height:500px;
         background-image: url(preview.jpg);
         background-size: cover;
         font-family: 'PT Serif', serif;}
+
         .링크목록{grid-area:링크목록;
-        border: 4px gray double;
+        border: 4px black double;
         margin: 10px; padding:20px;
         width: 300px;
         background-image: url(preview.jpg);
         background-size: cover;
         font-family: 'PT Serif', serif;}
         h1{color: black;}
+
         .소제목 h2{margin: 0px;}
         li{list-style: none;}
+
         .링크목록 a{color: blue;}
         a{text-decoration: none; color: black;}
         body{background-image:url(paper-3146951_1920.jpg);
         background-attachment: fixed;
         background-size: cover;}
 
+        #darkbutton{width: auto; height: auto;
+        border-radius: 5px; border:2px solid black;
+        background-color: white;
+        text-align: center;}
 
+        #defaultbutton{border-radius: 5px; border:2px solid black;
+        background-color: white;
+        text-align: center;}
 
         #seen{text-decoration: underline;}
     </style>
@@ -77,11 +96,17 @@
       </a>
     </div>
 
+    <div class="유틸">
+      <div id="darkbutton">Dark theme</div><br>
+      <div id="defaultbutton">Default theme</div>
+    </div>
+
     <div class="소제목">
       <h2>Mainpage</h2>
     </div>
 
     <div class="아티클">
+      <img src="배너.png" width="800px">
       <p>
         articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespacearticlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespacearticlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespacearticlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace
       </p>
@@ -113,5 +138,16 @@
     </div>
 
   </div>
+
+    <script type="text/javascript">
+    document.onmousedown = click;
+    function click(){
+      if(event.button == 2){
+        alert("Right-click unabled");}
+      }
+        darkbutton.onclick = function(){
+          "제목".style.background-image = "7971.jpg";}
+    </script>
+
   </body>
 </html>
