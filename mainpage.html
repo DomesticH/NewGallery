@@ -43,7 +43,8 @@
         padding-top: 10px; padding-bottom: 10px;
         background-image: url(preview.jpg);
         background-size: cover;
-        font-family: 'PT Serif', serif;}
+        font-family: 'PT Serif', serif;
+        }
 
         .프로필{grid-area:프로필;
         border: 4px black double;
@@ -60,13 +61,15 @@
         background-image: url(preview.jpg);
         background-size: cover;
         font-family: 'PT Serif', serif;}
-        h1{color: black;}
 
         .소제목 h2{margin: 0px;}
         li{list-style: none;}
 
+        .제목 a{text-decoration: none;
+                color: black;}
+
         .링크목록 a{color: blue;}
-        a{text-decoration: none; color: black;}
+
         body{background-image:url(paper-3146951_1920.jpg);
         background-attachment: fixed;
         background-size: cover;}
@@ -89,16 +92,68 @@
     <div class="bodypart">
 
     <div class="제목">
-      <a href="mainpage.html"
-      target="_self"
-      title="mainpage">
-      <h1>Gallery : NakedApe</h1>
-      </a>
+        <a href="mainpage.html"
+        target="_self"
+        title="mainpage">
+        <h1>Gallery : NakedApe</h1>
+        </a>
     </div>
 
     <div class="유틸">
-      <div id="darkbutton">Dark theme</div><br>
-      <div id="defaultbutton">Default theme</div>
+        <div id="darkbutton"; onclick="
+        var alist = document.querySelectorAll('a');
+        var i=0;
+        while(i<alist.length){alist[i].style.color='skyblue';
+        i=i+1}
+        document.querySelector('body').style.backgroundImage='url(검은벽돌.jpg)';
+        document.querySelector('.유틸').style.backgroundImage='url(7971.jpg)';
+        document.querySelector('.제목').style.backgroundImage='url(7971.jpg)';
+        document.querySelector('.소제목').style.backgroundImage='url(칠판.jpg)';
+        document.querySelector('.링크목록').style.backgroundImage='url(칠판.jpg)';
+        document.querySelector('.프로필').style.backgroundImage='url(칠판.jpg)';
+        document.querySelector('.아티클').style.backgroundImage='url(칠판.jpg)';
+
+        document.querySelector('.bodypart').style.color='white';
+
+        document.querySelector('#darkbutton').style.color='black';
+        document.querySelector('#defaultbutton').style.color='black';
+
+        document.querySelector('.유틸').style.border='4px white double';
+        document.querySelector('.제목').style.border='4px white double';
+        document.querySelector('.소제목').style.border='4px white double';
+        document.querySelector('.링크목록').style.border='4px white double';
+        document.querySelector('.프로필').style.border='4px white double';
+        document.querySelector('.아티클').style.border='4px white double';
+        ">
+
+        Dark theme</div><br>
+
+        <div id="defaultbutton"; onclick="
+        var alist = document.querySelectorAll('a');
+        var i=0;
+        while(i<alist.length){alist[i].style.color='blue';
+        i=i+1}
+        document.querySelector('body').style.backgroundImage='url(paper-3146951_1920.jpg.)';
+        document.querySelector('.유틸').style.backgroundImage='url(3305327.jpg)';
+        document.querySelector('.제목').style.backgroundImage='url(3305327.jpg)';
+        document.querySelector('.소제목').style.backgroundImage='url(preview.jpg)';
+        document.querySelector('.링크목록').style.backgroundImage='url(preview.jpg)';
+        document.querySelector('.프로필').style.backgroundImage='url(preview.jpg)';
+        document.querySelector('.아티클').style.backgroundImage='url(preview.jpg)';
+
+        document.querySelector('.bodypart').style.color='black';
+
+        document.querySelector('#darkbutton').style.color='black';
+        document.querySelector('#defaultbutton').style.color='black';
+
+        document.querySelector('.유틸').style.border='4px black double';
+        document.querySelector('.제목').style.border='4px black double';
+        document.querySelector('.소제목').style.border='4px black double';
+        document.querySelector('.링크목록').style.border='4px black double';
+        document.querySelector('.프로필').style.border='4px black double';
+        document.querySelector('.아티클').style.border='4px black double';
+        document.querySelector('.제목 a').style.color='black';">
+        Default theme</div>
     </div>
 
     <div class="소제목">
@@ -107,8 +162,9 @@
 
     <div class="아티클">
       <img src="배너.png" width="800px">
+      <br>
       <p>
-        articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespacearticlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespacearticlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespacearticlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace  articlespace
+        Welcome to my gallery.
       </p>
     </div>
 
@@ -140,13 +196,13 @@
   </div>
 
     <script type="text/javascript">
+
     document.onmousedown = click;
     function click(){
       if(event.button == 2){
         alert("Right-click unabled");}
-      }
-        darkbutton.onclick = function(){
-          "제목".style.background-image = "7971.jpg";}
+      };
+
     </script>
 
   </body>
